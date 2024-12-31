@@ -1,0 +1,292 @@
+
+body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(images/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: rgb(33, 33, 33) !important;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.Navcontainer {
+    color: rgb(115, 115, 115) !important;
+    width: 1100px;
+}
+
+.navbar-brand{
+    margin: 0 0 0 40px;
+}
+
+.navbar-nav{
+    margin: 0 0 0 800px;
+    justify-content: space-between; 
+    width: 25%; 
+}
+
+.collapse{
+    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0.424), alpha) !important;
+
+}
+
+.nav-item{
+    color: white !important;
+    display: inline;
+}
+
+.hero{
+   
+    height: 720px;
+    width: 1080px;
+}
+
+.bannerContainer h1{ 
+    padding: 220px 0 0 120px;
+    font-size: 60px;
+    color: black; 
+}
+
+.hero button{
+    width: 300px;
+    height: 60px;
+    margin: 20px 0 0 120px;
+    border-radius: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.menuContainer{
+    background-color: rgb(227, 227, 227) !important;
+    height: 820px;
+    margin-top: -60px;
+    padding-top: 100px;
+}
+
+.menuContainer h2{
+    text-align: left;
+    margin: -10px 0 10px 50px;
+}
+
+.menuCardGrid{
+    padding: 20px 0 0 50px; 
+}
+
+.card{
+    box-shadow: 10px 10px 5px rgba(9, 19, 108, 0.262);
+    border: 50px;
+    padding: 0 0 30px 0;
+} 
+
+.card-title{
+    margin: 20px 0 0 20px;
+}
+
+.card-text{
+    text-align: justify;
+    justify-self:flex-start;
+    width: 85%;
+    padding: 0px 0 0 20px;
+}
+
+.priceCard-text{
+    margin: 0 0 0 20px;
+}
+
+.menuCardGrid-btn-primary{
+    background-color: black !important;
+    color: white !important;
+    margin: 20px 0 0 20px;
+    padding: 10px 0 30px 0;
+}
+
+.priceCard-text{
+    font-size: 24px;
+}
+
+.about{
+    background-color: rgb(12, 12, 83);
+    padding: 10px 0 100px 0;
+    color: white;
+}
+
+.about h2{
+    margin: 100px 0 20px 100px;
+}
+
+.about img{
+    height: 400px;
+    margin: 30px 0 0 100px;
+    border-radius: 30px;
+}
+
+.summary{
+    margin: 50px 10px 0 0;
+    justify-self:flex-start;
+}
+
+.summary p{
+    padding: 30px 0 0 0;
+    text-align: justify;
+    justify-self:flex-start;
+    width: 85%;
+}
+
+.Contact{
+    height: 870px;
+    background-color: rgb(236, 236, 236);
+    padding: 180px 0 0 100px;   
+}
+
+.Contact h4{
+    margin: -50px 0 0 0;
+    padding: 0 0 60px 0;
+}
+
+.firstName{
+    margin: 0 32px 30px 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 30px;
+    border-color: rgb(58, 58, 58);
+}
+
+.lastName{
+    margin: 0 20px 30px 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 30px;
+    border-color: rgb(58, 58, 58);
+}
+
+.email{
+    margin: 10px 0 50px 120px;
+    width: 490px;
+    height: 40px;
+    border-radius: 5px;
+    border: 30px;
+    border-color: rgb(58, 58, 58);
+}
+
+
+.messageBox{
+    margin: 0 0 20px 100px;
+    border-radius: 10px;
+    width: 510px;
+    height: 150px;
+    border: 30px;
+    border-color: rgb(58, 58, 58);
+}
+
+.formButton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 130px;
+    border-radius: 15px;
+    margin: 15px 0 0 480px;
+}
+
+.contactImg img{
+    height: 400px;
+    margin: 0 0 0 30px;
+   
+}
+
+.Footer{
+    height: 150px;
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.copy p{
+    margin: 60px 0 0 0;
+}
+
+
+
+.icons{
+    margin: -30px 0 0 500px;
+    justify-content: space-evenly;
+    width: 80%
+}
+
+.facebookIcon{
+    height: 25px;
+    width: 25px;
+    color: aliceblue;
+}
+
+.xIcon{
+    height: 25px;
+    width: 25px;
+}
+
+.instagramIcon{
+    height: 25px;
+    width: 25px;
+}
+
+.tiktokIcon{
+    height: 25px;
+    width: 25px;
+}
+
+.subscribeEmail{
+    margin: -35px 0 0 980px;
+    width: 100px;
+}
+
+.emailSub{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  /* For medium phones: */
+  [class*="col-"] {
+    width: 100% !important;
+  }
+}
+
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(38, 31, 115) !important;
+      color: black !important;
+    }
+
+    .menuCardGrid{
+        justify-self: center;
+        justify-content: space-;
+    }
+  }
