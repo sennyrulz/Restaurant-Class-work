@@ -8,9 +8,24 @@ body {
   padding: 0;
   height: 100vh;
   background-image: url(images/maxresdefault.jpg);
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:cover;
+  min-height: 100vh;
+  max-width: 100%;
   background-color: rgb(33, 33, 33) !important;
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px){
+    body {
+      background-color: rgb(38, 31, 115) !important;
+      color: black;
+      max-width: 600%;
+      width: 600px;
+      font-size: 100% !important;
+      word-wrap: break-word;
+    }
 }
 
 .selector-for-some-widget {
@@ -43,7 +58,6 @@ body {
 }
 
 .hero{
-   
     height: 720px;
     width: 1080px;
 }
@@ -51,7 +65,14 @@ body {
 .bannerContainer h1{ 
     padding: 220px 0 0 120px;
     font-size: 60px;
-    color: black; 
+    color: black;
+    line-height: 70px;
+    background-color: transparent;
+    height: 500px;
+    max-width: 100%;
+    font-size: 500%;
+    margin: 10px;
+    word-wrap: break-word;
 }
 
 .hero button{
@@ -76,6 +97,7 @@ body {
     text-align: left;
     margin: -10px 0 10px 50px;
 }
+
 
 .menuCardGrid{
     padding: 20px 0 0 50px; 
@@ -120,25 +142,35 @@ body {
 }
 
 .about h2{
-    margin: 100px 0 20px 100px;
+    margin: 100px 0 20px 120px;
 }
 
 .about img{
-    height: 400px;
-    margin: 30px 0 0 100px;
+    height: 300px;
+    margin: 30px 0 0 120px;
     border-radius: 30px;
+    max-width: 300%;
+
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px){
+    .about img {
+      max-width: 100%;
+      width: 600px;
+    }
 }
 
 .summary{
-    margin: 50px 10px 0 0;
+    margin: 10px 0 0 -120px;
     justify-self:flex-start;
+    width: 100%;
 }
 
 .summary p{
-    padding: 30px 0 0 0;
+  
     text-align: justify;
     justify-self:flex-start;
-    width: 85%;
+    width: 100%;
 }
 
 .Contact{
@@ -171,14 +203,13 @@ body {
 }
 
 .email{
-    margin: 10px 0 50px 120px;
-    width: 490px;
+    margin: 10px 0 50px 100px;
+    width: 510px;
     height: 40px;
     border-radius: 5px;
     border: 30px;
     border-color: rgb(58, 58, 58);
 }
-
 
 .messageBox{
     margin: 0 0 20px 100px;
@@ -214,8 +245,6 @@ body {
 .copy p{
     margin: 60px 0 0 0;
 }
-
-
 
 .icons{
     margin: -30px 0 0 500px;
@@ -257,36 +286,41 @@ body {
 }
 
 /* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-  /* For medium phones: */
-  [class*="col-"] {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+ /* For medium phones: */
+@media only screen and (min-width: 576px) and (max-width: 768px) {   
+.menuContainer{
+    background-color: rgb(227, 227, 227) !important;
+    height: 2080px;
     width: 100% !important;
+    margin-top: -60px;
+    padding-top: 100px;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    min-height: 100vh;
+    max-width: 100%;
   }
 }
 
-
-
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: rgb(38, 31, 115) !important;
-      color: black !important;
+.menuCardGrid{
+    justify-self: center;
+    justify-content:space-around;
     }
-
-    .menuCardGrid{
-        justify-self: center;
-        justify-content: space-;
-    }
-  }
+  
